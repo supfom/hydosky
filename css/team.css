@@ -1,0 +1,101 @@
+/*内容区域*/
+.content .team-list{
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding-left: 0;
+}
+.team-list .item {
+    position: relative;
+    margin-top: 18px;
+}
+.item-title .name {
+    font-size: 25px;
+    color: #064088;
+    line-height: 1;
+}
+.item-title .position {
+    padding-left: 20px;
+    font-size: 18px;
+    color: #393939;
+}
+.item .item-img {
+    position: absolute;
+    top: 0;
+    left: 34px;
+    z-index: 99;
+    background-color: #fff;
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  /*  background-image: url(../imgs/teamh.png);*/
+}
+.item .item-img img{
+	max-width: 100%;
+}
+.item .item-title {
+    padding: 15px 0 15px 175px;
+}
+.box-shadow {
+    box-shadow: 0 3px 7px hsla(0,0%,81%,.2);
+}
+.item .item-intro {
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 20px 105px 20px 175px;
+    font-size: 14px;
+    color: #646464;
+    line-height: 28px;
+}
+.item-bottom {
+    height: 60px;
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position:relative;
+}
+.item-bottom .icon-down {
+    position: absolute;
+    right: 26px;
+    bottom: 20px;
+    width: 48px;
+    height: 48px;
+    cursor:pointer;
+    background: url(../imgs/bottom.png) no-repeat;
+    background-size:contain;
+}
+@media screen and (max-width:767px){
+    .item .item-img {
+        top: 25px;
+        left: 10px;
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    .item .item-title {
+        padding: 10px 0 10px 80px;
+    }
+    .item-title .name {
+        font-size: 16px;
+    }
+    .item-title .position {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    .item .item-intro {
+        padding: 10px 10px 10px 80px;
+    }
+    .item-bottom {
+        height: 40px;
+    }
+    .item-bottom .icon-down {
+        right: 26px;
+        bottom: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+

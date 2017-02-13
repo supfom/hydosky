@@ -1,0 +1,87 @@
+/*内容区域*/
+#product .pro-content{
+    padding-bottom: 0px;
+}
+.pro-content{
+
+}
+.pro-content .ydsky-logo{
+    text-align:center;
+
+}
+.pro-content .pro-img{
+
+
+}
+.pro-content .pro-img>ul{
+    margin: 0 auto;
+    padding-left: 0px;
+}
+.pro-content .pro-img>ul>li{
+    float: left;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 0 20px;
+
+}
+.pro-content .pro-img>ul>li + li{
+    border-left: 1px solid #d6d6d6;
+}
+.pro-list .mfsd{
+    background-color: #666;
+    padding: 30px 0;
+    margin: 30px 0 30px;
+
+}
+.pro-list .ly,.pro-list .bigdata,.pro-list .dware{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.pro-ly p,.pro-bigdata p,.pro-dware p{
+	text-align: left;
+	text-indent: 30px;
+	margin-top: 20px;
+    line-height: 30px;
+}
+.pro-bigdata ul li{
+	width: 50%;
+	float: right;
+	padding: 1%;
+}
+.pro-list .pro-head{
+    text-align: center;
+}
+.pro-list .pro-head>img{
+    width:160px;
+}
+.pro-list .pro-head img{
+
+}
+.pro-list .pro-head .pro-enter{
+    padding: 4px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.pro-list .pro-head .pro-enter>a{
+    color: #fff;
+}
+.pro-list .pro-detail{
+    margin-top: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.pro-list img{
+	max-width: 100%;
+}
+@media screen and (max-width:767px){
+	.pro-bigdata ul li{
+		width:100%;
+	}
+}
+@media screen and (max-width:414px){
+    .pro-list .pro-head>img{
+        width:120px;
+    }
+}

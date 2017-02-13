@@ -1,0 +1,72 @@
+/*内容区域*/
+.content .team-list{
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding-left: 0;
+}
+.team-list .item {
+    position: relative;
+    margin-top: 18px;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 7px hsla(0,0%,81%,.2);
+}
+.item .item-intro {
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 20px 0px 20px 20px;
+}
+.item .basic{
+    font-size: 18px;
+    color: #064088;
+}
+.item .detail{
+    margin-top:20px;
+}
+/* .item-bottom {
+    height: 30px;
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position:relative;
+}
+.item-bottom .icon-down {
+    position: absolute;
+    right: 26px;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+    color:#064088;
+} */
+.item-bottom {
+    height: 40px;
+    background-color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position:relative;
+}
+.item-bottom .icon-down {
+    position: absolute;
+    right: 26px;
+    bottom: 20px;
+    width: 48px;
+    height: 48px;
+    cursor:pointer;
+    background: url(../imgs/bottom.png) no-repeat;
+    background-size:contain;
+}
+@media screen and (max-width:767px){
+    .item-bottom .icon-down {
+        right: 26px;
+        bottom: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    .item .basic {
+        font-size: 16px;
+    }
+}

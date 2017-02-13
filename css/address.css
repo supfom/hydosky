@@ -1,0 +1,28 @@
+/*内容区域*/
+.add-detail{
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+#address{
+    height: 500px;
+    margin-top:0px!important;
+}
+@media screen and (max-width:767px){
+    #address>#container{
+        top:50px!important;
+        height: 300px!important;
+    }
+    #address{
+        height: 300px;
+        margin-top:0px!important;
+    }
+    .add-detail>div>div>img{
+        margin-bottom:20px;
+    }
+    .add-detail{
+        margin-top: 80px;
+    }
+}
+
+
+

@@ -1,0 +1,339 @@
+/*banner*/
+#index_banner > .carousel-inner > .item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* 当屏幕宽度大于768时，将元素高度设置为410px */
+@media (min-width: 768px) {
+    #index_banner > .carousel-inner > .item {
+        height: 450px;
+    }
+}
+
+/*标题*/
+#ydsky_tit{
+    padding: 50px 0;
+}
+#ydsky_tit p{
+    text-align: center;
+    font-size: 40px;
+    color: #064088;
+    font-weight: bold;
+}
+/*企业简介*/
+.content-like{
+    margin-bottom: 60px;
+}
+.content-like .container{
+    position: relative;
+}
+.content-like .container:after{
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: 2px;
+    display: block;
+    content: ' ';
+    background: linear-gradient(90deg,hsla(0,0%,56%,0),#8e8e8e,hsla(0,0%,56%,0));
+}
+.content-like .dots{
+    position: absolute;
+    left: 50%;
+    top: 71px;
+    width: 56px;
+    height: 14px;
+    z-index: 2;
+    margin-left: -25px;
+}
+.content-like .dots i{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #064088;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    margin-right: 6px;
+}
+
+.content-like h2{
+    text-align: center;
+    color: #3e3e3f;
+    font-size: 32px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+#ydsky_summary p{
+    text-indent: 2em;
+    line-height: 36px;
+    color: #777;
+    font-size: 16px;
+}
+
+/* 公司历程 */
+#history{
+    position:relative;
+    height:700px;
+}
+#slidebox {
+    width:100%;
+    height:340px;
+    position:relative;
+}
+#slidebox #images {
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 50px;
+}
+#slidebox #images ul {
+    width:100%;
+    height:100%;
+}
+#slidebox #images ul {
+    list-style:none;
+}
+#slidebox #images ul li {
+    position:absolute;
+    box-sizing:border-box;
+    box-shadow:0 0 4px 5px #ccc inset;
+}
+#slidebox #images ul li img {
+    width:100%;
+    height:100%;
+}
+#slidebox #images ul li.img-l2 {
+    z-index:1;
+    width:30%;
+    height:131px;
+    top:100px;
+    left:10%;
+    opacity:0;
+    filter:alpha(opacity = 0);
+}
+#slidebox #images ul li.img-l1 {
+    z-index: 2;
+    width: 40%;
+    height: 224px;
+    top: 40px;
+    left: 15%;
+}
+#slidebox #images ul li.img-c {
+    z-index: 3;
+    width: 50%;
+    height: 270px;
+    top: 20px;
+    left: 25%;
+}
+#slidebox #images ul li.img-c  .slide-text{
+    display:block;
+    display: block;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+}
+#images ul li .slide-text{
+    display:none;
+}
+#images ul li .slide-text h3{
+    margin-top:0;
+}
+#slidebox #images ul li.img-r1 {
+    z-index:2;
+    width:40%;
+    height:224px;
+    top:40px;
+    right:15%;
+}
+#slidebox #images ul li.img-r2 {
+    z-index:1;
+    width:30%;
+    height:131px;
+    top:100px;
+    right:10%;
+    opacity:0;
+    filter:alpha(opacity = 0);
+}
+#slidebox #anniu a {
+    display:block;
+    position:absolute;
+    cursor:pointer;
+    color: #e77a3a;
+    font-size: 30px;
+    font-weight:normal;
+    font-family:"宋体";
+    line-height: 30px;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    z-index: 4;
+    top:0;
+}
+#slidebox #anniu .leftbut {
+    left: 40%;
+}
+#slidebox #anniu .rightbut {
+    right: 40%;
+}
+#slidebox #images ul .denghou {
+    display:none;
+}
+.zhezhao {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:black;
+    z-index:9;
+}
+.img-c .zhezhao {
+    opacity:0;
+    filter:alpha(opacity = 0);
+}
+.img-l1 .zhezhao,.img-r1 .zhezhao {
+    opacity:0.6;
+    filter:alpha(opacity = 60);
+}
+#xiaoyuandian {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: 10;
+    width: 70px;
+    overflow: hidden;
+    margin-left: -35px;
+    height: 30px;
+}
+#xiaoyuandian ul {
+    height: 30px;
+    list-style: none;
+    width: 2000px;
+    position: absolute;
+}
+#xiaoyuandian ul li {
+    float: left;
+    width: 60px;
+    height: 30px;
+    border-radius: 4PX;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+#xiaoyuandian ul li.cur {
+    background:#e77a3a;
+}
+
+.mybtn{
+    position:absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "宋体";
+}
+#index_banner .mybtn{
+    margin-top:-35px;
+}
+@media screen and (max-width:991px){
+    #slidebox #anniu .leftbut {
+        left: 30%;
+    }
+    #slidebox #anniu .rightbut {
+        right: 30%;
+    }
+    #slidebox #images ul li.img-c {
+        width: 80%;
+        height: 270px;
+        top: 20px;
+        left: 10%;
+    }
+    #slidebox #images ul li.img-l1 {
+        width: 80%;
+        left: 0%;
+        height: 224px;
+        top: 40px;
+    }
+    #slidebox #images ul li.img-r1 {
+        width: 80%;
+        height: 224px;
+        top: 40px;
+        left: 20%;
+    }
+}
+@media screen and (max-width:767px){
+    #ydsky_tit p {
+        font-size: 30px;
+    }
+    #ydsky_tit {
+    padding: 30px 0;
+    }
+    .content-like h2 {
+        font-size: 25px;
+    }
+    #ydsky_summary p {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (max-width:414px){
+    #slidebox #anniu .leftbut {
+        left: 20%;
+    }
+    #slidebox #anniu .rightbut {
+        right: 20%;
+    }
+    #slidebox #images ul li.img-c {
+        width: 90%;
+        height: 220px;
+        top: 20px;
+        left: 5%;
+    }
+    #slidebox #images ul li.img-l1 {
+        width: 80%;
+        left: 0%;
+        height: 180px;
+        top: 40px;
+    }
+    #slidebox #images ul li.img-r1 {
+        width: 80%;
+        height: 180px;
+        top: 40px;
+        left: 20%;
+    }
+    #ydsky_tit {
+        padding: 20px 0;
+    }
+    #ydsky_tit p {
+        font-size: 20px;
+    }
+    .content-like h2 {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom:50px;
+    }
+    .content-like .container:after {
+        top: 36px;
+    }
+    .content-like .dots {
+        top: 27px;
+    }
+    #history {
+        height: 600px;
+    }
+    #index_banner .mybtn {
+        margin-top: -15px;
+    }
+    .mybtn {
+        font-size: 30px;
+    }
+}
